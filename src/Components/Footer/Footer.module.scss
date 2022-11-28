@@ -2,15 +2,16 @@
     grid-area: 'footer';
     color: rgb(213, 171, 213);
     font-size: 0.8em;
+
+    a {
+        text-decoration: none;
+        color: rgb(213, 171, 213);
+    
+        &:hover {
+            text-decoration: underline;
+            filter: brightness(1.2);
+        }
+    }    
 }
 
-a {
-    text-decoration: none;
-    color: rgb(213, 171, 213);
-
-    &:hover {
-        text-decoration: underline;
-        filter: brightness(1.2);
-    }
-}
 

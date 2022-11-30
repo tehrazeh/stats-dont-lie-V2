@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom'
 
   const [buttons] = useState(() => {
     return [
-      {buttonName: 'player', description: `Look up player's average for a specific season`}, // balldontlie for avgs
-      {buttonName: 'teams', description: `List of current NBA teams`}, // sportradar api for rosters
+      {buttonName: 'Player', description: `Look up player's average for a specific season`}, // balldontlie for avgs
+      {buttonName: 'Teams', description: `List of current NBA teams`}, // sportradar api for rosters
       // buttonName: 'leaders', description: 'Look up leaders of a certain stat for a specific season' 
       // buttonName: 'standings', description: 'Teams standings for a specific season'
     ]

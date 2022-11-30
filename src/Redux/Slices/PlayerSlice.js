@@ -12,11 +12,9 @@ const PlayerSlice = createSlice({
     reducers: {
         setName(state, action) {
             state.playerName = action.payload
-            console.log(state.playerName)
         },
         setSeason(state, action) {
             state.playerSeason = action.payload
-            console.log(state.playerSeason)
         },
     }
 })
